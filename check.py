@@ -1,5 +1,5 @@
 """Self-check for the data rules. python3 check.py -> prints 'ok' or fails on the first broken rule."""
-import json
+import json, pathlib
 from broker import dedupe, from_osm, norm_phone, norm_site, parse_labels, valid_email
 
 assert norm_phone("(919) 555-0142") == norm_phone("+1-919-555-0142") == norm_phone("1 919 555 0142") == "+19195550142"
@@ -31,6 +31,6 @@ ids = ["node/1", "node/2"]
 assert parse_labels('[{"id":"node/1","category":"mortgage"},{"id":"node/2","category":"banana"}]', ids) == {"node/1": "mortgage", "node/2": "unknown"}
 assert parse_labels("Sure! Here you go: ...", ids) == {"node/1": "unknown", "node/2": "unknown"}
 # the fictional sample element maps to one clean row
-row = from_osm(json.load(open("sample/overpass-element.sample.json")))
+row = from_osm(json.load(open(pathlib.Path(__file__).parent / "sample/overpass-element.sample.json")))
 assert (row["name"], row["phone"], row["website"]) == ("Maple Street Realty", "+19195550142", "maplestreetrealty.example"), row
 print("ok")
