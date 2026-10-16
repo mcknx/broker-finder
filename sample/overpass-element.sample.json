@@ -1,0 +1,17 @@
+{
+ "note": "fictional; same shape as one element of a real Overpass API response for the query in broker.py",
+ "type": "node",
+ "id": 9000000005,
+ "lat": 35.7000001,
+ "lon": -78.8000001,
+ "tags": {
+  "office": "estate_agent",
+  "name": "Maple Street Realty",
+  "addr:housenumber": "12",
+  "addr:street": "Maple Street",
+  "addr:city": "Exampleton",
+  "addr:postcode": "27500",
+  "contact:phone": "(919) 555-0142",
+  "website": "HTTP://WWW.MapleStreetRealty.example/"
+ }
+}

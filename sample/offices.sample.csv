@@ -1,0 +1,6 @@
+osm_id,name,category,address,phone,website,emails,lat,lon,title,source_url,county
+node/9000000003,Bayline Commercial Partners,commercial,"40 Harbor Lane, Exampleton, 27500",+19195550178,baylinecre.example,,35.7101,-78.6402,Bayline Commercial Partners | Office & Retail Leasing,http://baylinecre.example,Sample County
+node/9000000004,Copperleaf Home Loans,mortgage,"7 Mill Road, Exampleton, 27500",+19195550133,copperleafloans.example,hello@copperleafloans.example,35.7215,-78.6551,Copperleaf Home Loans - Mortgages Made Simple,http://copperleafloans.example http://copperleafloans.example/contact,Sample County
+way/9000000005,Maple Street Realty,residential,"12 Maple Street, Exampleton, 27500",+19195550142,maplestreetrealty.example,info@maplestreetrealty.example,35.7000001,-78.8000001,Maple Street Realty | Homes for Sale,http://maplestreetrealty.example,Sample County
+node/9000000006,Oak Ridge Rentals,property_management,"301 Oak Ridge Drive, Exampleton, 27500",+19195550190,oakridgerentals.example,,35.7302,-78.6199,Oak Ridge Rentals - Property Management,http://oakridgerentals.example,Sample County
+node/9000000007,Sunfield Builders,other,,,,,35.6988,-78.7012,,,Sample County

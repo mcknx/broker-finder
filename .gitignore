@@ -1,0 +1,13 @@
+# run outputs: real scraped data never goes in the repo
+offices.db
+offices.csv
+run.json
+run.log
+*.db
+*.sqlite
+# secrets and caches
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
